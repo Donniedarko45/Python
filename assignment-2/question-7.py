@@ -1,0 +1,8 @@
+seconds=int(input('enter the time in seconds to  convert: '))
+hours=int(seconds/3600)
+rem_seconds=int(seconds-hours*3600)
+minutes=int(rem_seconds/60)
+seconds=int(rem_seconds-minutes*60)
+print('hours: ',hours)
+print('minutes: ',minutes)
+print('seconds: ',seconds)
