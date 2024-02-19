@@ -7,10 +7,10 @@ for i in range(n):
     year=int(input("enter year of the book: "))
     t=[bookname,name,price,year]
     l.append(t)
-
+print(type(l))
     #bookname
 
-for i in range(0,n):
+"""for i in range(0,n):
     print(l[i][0])
 
 #book details where price<200
@@ -38,7 +38,7 @@ m=[]
 for i in range(0,n):
    for j in i:
      if l[1][1]==l[1][j]:
-        pass
+        pass"""
    
 
 
