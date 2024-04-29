@@ -2,7 +2,7 @@ d={}
 n=int(input("enter no of students: "))
 for i in range(n):
     k=int(input("enter roll no: "))
-    v=int(input("enter cgpa: "))
+    v=float(input("enter cgpa: "))
     d.update({k:v}) 
 print(d)
 s=0
